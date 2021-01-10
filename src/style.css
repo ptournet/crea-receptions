@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Black Jack';
+        src: url('/assets/fonts/BlackJack.eot');
+        src: url('/assets/fonts/BlackJack.woff') format('woff'),
+            url('/assets/fonts/BlackJackd41d.eot?#iefix') format('embedded-opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .title {
+        background-image: url('/assets/img/contour.png')
+    }
+}
