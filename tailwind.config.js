@@ -11,6 +11,11 @@ module.exports = {
       },
       inset: {
         '80px': '80px',
+        '-80px': '-80px',
+      },
+      maxWidth: {
+        '829': '829px',
+        '1166': '1166px',
       },
       minHeight: {
         '349': '349px',
@@ -42,6 +47,7 @@ module.exports = {
       'xl': ['24px', '32px'],
       '7xl': ['76px', '0.8em'],
       '9xl': ['95px'],
+      '16xl': ['160px'],
     }
   },
   variants: {},
