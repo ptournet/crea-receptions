@@ -35,9 +35,10 @@ module.exports = {
       'script': ['Black Jack'],
     },
     fontSize: {
+      'xs': ['12px', '18px'],
       'sm': ['14px', '20px'],
       'base': ['16px', '24px'],
-      'lg': ['20px', '28px'],
+      'lg': ['18px', '26px'],
       'xl': ['24px', '32px'],
       '7xl': ['76px', '0.8em'],
       '9xl': ['95px'],
