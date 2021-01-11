@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "eliostruyf.vscode-front-matter",
+        "heybourn.headwind",
+        "dedsec727.jekyll-run",
+        "ginfuru.vscode-jekyll-snippets",
+        "ginfuru.ginfuru-vscode-jekyll-syntax",
+        "sissel.shopify-liquid",
+        "bradlc.vscode-tailwindcss",
+        "austenc.tailwind-docs"
+    ]
+}
