@@ -7,6 +7,7 @@ url: "https://ptournet.github.io" # The base url, no trailing slash. Ex: "https:
 is_production: true # Leave unchanged. Used for production build.
 
 exclude:
+  - assets
   - Gemfile
   - Gemfile.lock
   - gulpfile.babel.js
@@ -18,6 +19,9 @@ exclude:
   - src
   - tailwind.config.js
   - netlify.toml
+
+include:
+  - pages
 
 defaults:
   - scope:
