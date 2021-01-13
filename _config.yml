@@ -6,7 +6,7 @@ url: "https://ptournet.github.io" # The base url, no trailing slash. Ex: "https:
 
 is_production: true # Leave unchanged. Used for production build.
 
-repository:
+repository: ptournet/crea-receptions
 
 plugins:
   - "jekyll-github-metadata"
