@@ -6,45 +6,52 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" type="image/png" href="/assets/img/favicon.png">
-  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="icon" type="image/png" href="{{ site.base_url }}/assets/img/favicon.png">
+  <link rel="stylesheet" href="{{ site.base_url }}/assets/css/style.css" />
   <link href='https://fonts.googleapis.com/css?family=Nunito:700' rel='stylesheet' type='text/css' />
 
   {% if page.use_fancybox %}
-  <script type="text/javascript" src="/assets/js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
-  <link rel="stylesheet" href="/assets/js/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="/assets/js/fancybox/source/helpers/jquery.fancybox-buttons3447.css?v=1.0.5"
-    type="text/css" media="screen" />
-  <link rel="stylesheet" href="/assets/js/fancybox/source/helpers/jquery.fancybox-thumbsf2ad.css?v=1.0.7"
-    type="text/css" media="screen" />
+  <script type="text/javascript"
+    src="{{ site.base_url }}/assets/js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+  <link rel="stylesheet" href="{{ site.base_url }}/assets/js/fancybox/source/jquery.fancybox.css" type="text/css"
+    media="screen" />
+  <link rel="stylesheet"
+    href="{{ site.base_url }}/assets/js/fancybox/source/helpers/jquery.fancybox-buttons3447.css?v=1.0.5" type="text/css"
+    media="screen" />
+  <link rel="stylesheet"
+    href="{{ site.base_url }}/assets/js/fancybox/source/helpers/jquery.fancybox-thumbsf2ad.css?v=1.0.7" type="text/css"
+    media="screen" />
   {% endif %}
 
   {% if page.use_flickity %}
-  <link rel="stylesheet" href="/assets/css/flickity.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="{{ site.base_url }}/assets/css/flickity.css" type="text/css" media="screen" />
   {% endif %}
 
   {% if page.use_responsive_nav %}
-  <link rel="stylesheet" href="/assets/css/responsive-nav.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="{{ site.base_url }}/assets/css/responsive-nav.css" type="text/css" media="screen" />
   {% endif %}
 </head>
 
 <body class="text-base font-base">
   <header class="container flex justify-center h-24 mx-auto space-x-8 text-sm font-bold text-gray-400">
-    <div class="pl-9 pt-9 hover:text-anis"><a href="/index.html">Accueil</a></div>
-    <div class="pt-9 hover:text-anis"><a href="/pages/prestations-particuliers.html">Particuliers</a></div>
-    <div class="pt-9 hover:text-anis"><a href="/pages/prestations-professionnels.html">Professionnels</a></div>
-    <div class="z-50 pt-5"><img src="/assets/img/logo-creareception.png" alt="Logo CreaReception"></div>
-    <div class="pt-9 hover:text-anis"><a href="/pages/partenaires.html">Partenaires</a></div>
-    <div class="pt-9 hover:text-anis"><a href="/pages/references.html">Références</a></div>
-    <div class="pt-9 hover:text-anis"><a href="/pages/contact.html">Contact</a></div>
+    <div class="pl-9 pt-9 hover:text-anis"><a href="{{ site.base_url }}/index.html">Accueil</a></div>
+    <div class="pt-9 hover:text-anis"><a href="{{ site.base_url }}/pages/prestations-particuliers.html">Particuliers</a>
+    </div>
+    <div class="pt-9 hover:text-anis"><a
+        href="{{ site.base_url }}/pages/prestations-professionnels.html">Professionnels</a></div>
+    <div class="z-50 pt-5"><img src="{{ site.base_url }}/assets/img/logo-creareception.png" alt="Logo CreaReception">
+    </div>
+    <div class="pt-9 hover:text-anis"><a href="{{ site.base_url }}/pages/partenaires.html">Partenaires</a></div>
+    <div class="pt-9 hover:text-anis"><a href="{{ site.base_url }}/pages/references.html">Références</a></div>
+    <div class="pt-9 hover:text-anis"><a href="{{ site.base_url }}/pages/contact.html">Contact</a></div>
     <div class="pt-9">
       <a href="https://www.facebook.com/creareceptions/">
-        <img src="/assets/img/facebook-picto.png">
+        <img src="{{ site.base_url }}/assets/img/facebook-picto.png">
       </a>
     </div>
     <div class="pt-9">
       <a href="https://www.instagram.com/creareceptions/">
-        <img src="/assets/img/insta-picto.png">
+        <img src="{{ site.base_url }}/assets/img/insta-picto.png">
       </a>
     </div>
   </header>
