@@ -2,9 +2,9 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: [ gh-pages ]
+    branches: [ test-ghp ]
   pull_request:
-    branches: [ gh-pages ]
+    branches: [ test-ghp ]
 
 jobs:
   build:
@@ -19,4 +19,5 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        -e PAGES_REPO_NWO=${{ github.repository }} \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future --trace -V -b /crea-receptions"
